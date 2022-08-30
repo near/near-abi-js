@@ -1,5 +1,5 @@
 import { JSONSchema7 } from 'json-schema';
-export interface Abi {
+export interface AbiRoot {
     /** Semver of the ABI schema format. */
     schema_version: string;
     /** Metadata information about the contract. */
