@@ -5,7 +5,7 @@ export interface AbiRoot {
     /** Semver of the ABI schema format. */
     schema_version: string;
     /** Metadata information about the contract. */
-    metadata?: AbiMetadata;
+    metadata: AbiMetadata;
     /** Core ABI information (functions and types). */
     body: AbiBody;
 }
