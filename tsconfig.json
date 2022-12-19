@@ -7,7 +7,7 @@
       "dom"
     ],
     "module": "commonjs",
-    "target": "esnext",
+    "target": "es2015",
     "moduleResolution": "node",
     "alwaysStrict": true,
     "outDir": "./lib",
@@ -21,8 +21,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "experimentalDecorators": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true
+    "resolveJsonModule": true
   },
   "files": [
     "src/index.ts",
