@@ -1,6 +1,6 @@
 {
   "name": "near-abi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Typescript library providing NEAR smart contract ABI primitives",
   "main": "lib/index.js",
   "browser": "lib/index.js",
